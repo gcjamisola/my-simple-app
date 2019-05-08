@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it works 1`] = `
+.c0 {
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media (max-width:572px) {
+  .c0 {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;

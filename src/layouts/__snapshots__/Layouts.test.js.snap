@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlainLayout component should render the component 1`] = `
+<styled.div>
+  <Header />
+  <Footer />
+</styled.div>
+`;

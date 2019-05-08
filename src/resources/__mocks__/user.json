@@ -1,0 +1,22 @@
+{
+	"name": "Lorem Ipsum",
+	"username": "lorem.ipsum",
+	"email": "lorem.ipsum@li.biz",
+	"address": {
+		"street": "Lorem",
+		"suite": "Ipsum",
+		"city": "Dolor",
+		"zipcode": "92998-3874",
+		"geo": {
+			"lat": "-37.3159",
+			"lng": "81.1496"
+		}
+	},
+	"phone": "1-770-736-8031 x56442",
+	"website": "loremipsum.org",
+	"company": {
+		"name": "Lorem-Ipsum-company",
+		"catchPhrase": "Multi-layered client-server neural-net",
+		"bs": "harness real-time e-markets"
+	}
+}

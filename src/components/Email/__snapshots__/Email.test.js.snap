@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Email component should render the component 1`] = `
+<styled.div>
+  <styled.div
+    header={true}
+  >
+    <div
+      className="wrapper text-4"
+    >
+      <div
+        className="wrapper text-2"
+      >
+        <div
+          className="text"
+        >
+          ID
+        </div>
+        <div
+          className="text"
+        >
+          Full Name
+        </div>
+      </div>
+      <div
+        className="wrapper text-2"
+      >
+        <div
+          className="text"
+        >
+          Email
+        </div>
+        <div
+          className="text"
+        >
+          Action
+        </div>
+      </div>
+    </div>
+  </styled.div>
+  <styled.div />
+</styled.div>
+`;

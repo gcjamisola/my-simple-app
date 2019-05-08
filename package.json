@@ -1,0 +1,79 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kevin j",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --config webpack.dev.js --watch --progress",
+    "start": "webpack --config webpack.dev.js && webpack-dev-server --open --config webpack.dev.js",
+    "build-dev": "webpack-dev-server --config webpack.dev.js --port 1729 --progress --inline",
+    "build": "webpack --config webpack.prod.js",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "runner": "jest-runner-eslint",
+    "setupFiles": [
+      "<rootDir>/src/test.config.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-react-transform": "^3.0.0",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "file-loader": "3.0.1",
+    "img-loader": "^3.0.1",
+    "jest": "^24.8.0",
+    "jest-runner-eslint": "0.7.3",
+    "jest-styled-components": "6.3.1",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react-test-renderer": "^16.8.6",
+    "redux-devtools-extension": "^2.13.8",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "2.1.2",
+    "webpack": "4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "3.3.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "antd": "^3.17.0",
+    "connected-react-router": "^6.4.0",
+    "es6-promise": "^4.2.6",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.11",
+    "mailgun-js": "^0.22.0",
+    "normalize.css": "^8.0.1",
+    "pac-proxy-agent": "^3.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-responsive-modal": "3.6.0",
+    "react-router-dom": "5.0.0",
+    "react-slick": "0.24.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "string-format": "2.0.0",
+    "styled-components": "4.2.0"
+  }
+}

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register component should render the component 1`] = `
+<styled.div>
+  <styled.form
+    onSubmit={[Function]}
+  >
+    <ul>
+      <li>
+        <label
+          htmlFor="name"
+        >
+          Name
+        </label>
+        <input
+          maxLength="100"
+          name="name"
+          type="text"
+        />
+        <span>
+          Enter your full name here
+        </span>
+      </li>
+      <li>
+        <label
+          htmlFor="username"
+        >
+          Username
+        </label>
+        <input
+          maxLength="100"
+          name="username"
+          type="text"
+        />
+        <span>
+          Enter a username
+        </span>
+      </li>
+      <li>
+        <label
+          htmlFor="email"
+        >
+          Email
+        </label>
+        <input
+          maxLength="100"
+          name="email"
+          type="email"
+        />
+        <span>
+          Enter a valid email address
+        </span>
+      </li>
+      <li>
+        <label
+          htmlFor="address"
+        >
+          Address
+        </label>
+        <input
+          maxLength="100"
+          name="street"
+          placeholder="street"
+          type="text"
+        />
+        <input
+          maxLength="100"
+          name="city"
+          placeholder="city"
+          type="text"
+        />
+        <input
+          maxLength="100"
+          name="zipcode"
+          placeholder="zipcode"
+          type="text"
+        />
+        <span>
+          Enter a address
+        </span>
+      </li>
+      <li>
+        <label
+          htmlFor="phone"
+        >
+          Phone
+        </label>
+        <input
+          maxLength="100"
+          name="phone"
+          type="text"
+        />
+        <span>
+          Enter phone number
+        </span>
+      </li>
+      <li>
+        <label
+          htmlFor="url"
+        >
+          Website
+        </label>
+        <input
+          maxLength="100"
+          name="url"
+          type="url"
+        />
+        <span>
+          Your website address (eg: http://www.google.com)
+        </span>
+      </li>
+      <li>
+        <styled.button>
+          Submit
+        </styled.button>
+      </li>
+    </ul>
+  </styled.form>
+  <Popup
+    open={false}
+  />
+</styled.div>
+`;
